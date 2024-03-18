@@ -1,10 +1,100 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My GitHub Pages Site</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert's Easy Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light gray background */
+            color: #333; /* Text color */
+        }
+        .container {
+            max-width: 800px; /* Increase maximum width for better readability */
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff; /* Blue heading */
+            margin-bottom: 20px;
+        }
+        p {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.1em; /* Increase font size for better readability */
+        }
+        .solution-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .solution-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff; /* White background for solution items */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+            transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .solution-item:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+        }
+        .solution-item a {
+            text-decoration: none;
+            color: #007bff; /* Blue link color */
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+        .solution-item a:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+        .solution-description {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px; /* Increase top margin for better separation */
+        }
+        .solution-image {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .donate-icon {
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            width: 150px; /* Adjust the size of the icon */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Robert's Easy Solutions</h1>
+        <p>Welcome. I develop these apps because I find them useful and couldn't find anything online to download, so I share them with the world for free.</p>
+        
+        <ul class="solution-list">
+            <li class="solution-item">
+                <h2>Easy Auto PC Power Switch</h2>
+                <p class="solution-description">This solution enables you to automatically shut down or hibernate your PC after a certain period of time.</p>
+                <a href="C:\Robert\EasyPCShutdown\EasyPCPowerSwitch.zip" download>Download</a> <!-- Added download attribute -->
+                <div class="solution-image">
+                    <img src="C:\Users\robert.engel\Repositories\Robert_Coding\EasyAutoPCShutdown\Easy Auto PC Power Switch.png" alt="Solution Image">
+                </div>
+            </li>
+            <!-- Add more solutions as needed, with their respective descriptions -->
+        </ul>
+
+        <!-- Text above PayPal Donate Icon -->
+        <p>This product is free to use but if you would like you can donate:</p>
+
+        <!-- PayPal Donate Icon -->
+        <a href="https://www.paypal.com/paypalme/engelrobert" target="_blank">
+            <img src="C:\Users\robert.engel\Repositories\Robert_Coding\EasyAutoPCShutdown\PP_Donate.png" alt="Donate with PayPal" class="donate-icon">
+        </a>
+    </div>
+</body>
 </html>
